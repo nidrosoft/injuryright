@@ -38,7 +38,8 @@
         "zod": "^4.3.5"
     },
     "optionalDependencies": {
-        "lightningcss-linux-x64-gnu": "^1.29.0"
+        "lightningcss-linux-x64-gnu": "^1.29.0",
+        "@tailwindcss/oxide-linux-x64-gnu": "^4.1.0"
     },
     "devDependencies": {
         "@trivago/prettier-plugin-sort-imports": "^5.2.2",
