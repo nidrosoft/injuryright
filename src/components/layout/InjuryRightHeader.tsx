@@ -115,6 +115,8 @@ const statesList = [
   "West Virginia", "Wisconsin", "Wyoming",
 ];
 
+const desktopStatesLimit = 24;
+
 const LocationDropdown = () => (
   <div className="w-full min-w-[700px] max-w-3xl p-2">
     <nav className="overflow-hidden rounded-2xl bg-primary shadow-lg ring-1 ring-secondary_alt">
@@ -140,7 +142,7 @@ const LocationDropdown = () => (
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-wider text-tertiary mb-3">Browse by State</h3>
           <ul className="grid grid-cols-2 gap-x-4 gap-y-0.5">
-            {statesList.map((state) => (
+            {statesList.slice(0, desktopStatesLimit).map((state) => (
               <li key={state}>
                 <Link
                   href="/survey"
@@ -151,6 +153,13 @@ const LocationDropdown = () => (
               </li>
             ))}
           </ul>
+          <Link 
+            href="/locations" 
+            className="inline-flex items-center gap-1.5 mt-3 px-2 text-sm font-semibold text-brand-secondary hover:text-brand-secondary_hover transition-colors"
+          >
+            View all states
+            <ArrowRight className="size-4 stroke-[2.5px]" />
+          </Link>
         </div>
       </div>
       <div className="border-t border-secondary px-4 py-3">

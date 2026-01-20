@@ -63,10 +63,10 @@ export const NAV_LINKS = {
       { label: "For Law Firms", href: "/for-law-firms" },
     ],
     resources: [
+      { label: "Settlement Funding Solutions", href: "/settlement-funding" },
       { label: "Life After Impact Blog", href: "/blog" },
-      { label: "Legal Topics & Q&A", href: "/legal-topics" },
-      { label: "Insurance Carriers", href: "/insurance-carriers" },
-      { label: "Specialties", href: "/specialties" },
+      { label: "Verified Reviews", href: "/verified-reviews" },
+      { label: "Contact Us", href: "/contact" },
     ],
     legal: [
       { label: "Data & Privacy", href: "/data-privacy" },
@@ -220,6 +220,20 @@ export const INJURY_TYPES = [
     slug: "personal-injury",
     description: "When someone else's negligence causes harm, you may be eligible for compensation. We fight for the care and justice you deserve.",
     shortDescription: "General negligence and injury claims",
+  },
+  {
+    emoji: "📦",
+    label: "Product Liability",
+    slug: "product-liability",
+    description: "Product liability injuries happen when unsafe or defective products cause harm during normal use. These claims help hold manufacturers accountable.",
+    shortDescription: "Defective product injury claims",
+  },
+  {
+    emoji: "🚢",
+    label: "Boating & Cruise Ship",
+    slug: "boating-cruise-ship",
+    description: "Boating and cruise ship injuries occur on recreational boats, ferries, and cruise liners when unsafe conditions or negligence at sea cause harm.",
+    shortDescription: "Maritime and cruise injury claims",
   },
 ];
 

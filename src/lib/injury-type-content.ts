@@ -1145,6 +1145,181 @@ export const INJURY_TYPE_CONTENT: Record<string, InjuryTypeContent> = {
       ],
     },
   },
+
+  "product-liability": {
+    slug: "product-liability",
+    title: "Product Liability Injuries",
+    metaTitle: "Product Liability Lawyers | InjuryRight - Defective Product Claims",
+    metaDescription: "Injured by a defective product? Learn about product liability claims, manufacturer accountability, and how to pursue compensation for your injuries.",
+    heroDescription: "Product liability injuries happen when unsafe or defective products cause harm during normal use. These claims help hold manufacturers, distributors, and retailers accountable when a product is unreasonably dangerous.",
+    keyTakeaways: [
+      "Companies that design, manufacture, or sell products must keep them reasonably safe for consumers.",
+      "Product-related injuries can be severe, involving burns, fractures, organ damage, or long-term illness.",
+      "Claims often rely on proving a design defect, manufacturing defect, or failure to warn.",
+      "Compensation can include medical bills, lost income, pain and suffering, and property damage.",
+      "Preserving the product and its packaging is crucial to your claim.",
+    ],
+    whatIs: {
+      title: "What Is a Product Liability Claim?",
+      content: "A product liability claim is a case seeking compensation when a defective or dangerous product causes injury. These claims can be based on negligence, strict liability, or breach of warranty, depending on how the product was unsafe. Manufacturers, distributors, and retailers may all be responsible if a product is defective in its design, production, or warnings and instructions.",
+    },
+    financialProtection: {
+      title: "How Product Liability Claims Provide Financial Protection",
+      intro: "Compensation from a product liability claim can help cover:",
+      items: [
+        "Emergency room visits, hospital stays, and surgery",
+        "Ongoing medical treatment, rehabilitation, and prescription medications",
+        "Lost wages and reduced earning capacity if you cannot return to work",
+        "Pain, suffering, and loss of enjoyment of life",
+        "Property damage caused by fires, explosions, or other product failures",
+      ],
+    },
+    whoNeedsHelp: {
+      title: "Who Needs Legal Help After a Product-Related Injury",
+      intro: "Legal help is especially important if:",
+      items: [
+        "You suffered serious injuries requiring medical care or surgery",
+        "The manufacturer or seller denies there is anything wrong with the product",
+        "Insurance companies offer a low or quick settlement",
+        "You are unsure how to prove the product was defective or unreasonably dangerous",
+      ],
+    },
+    commonInjuries: {
+      title: "Common Product Liability Injuries",
+      items: [
+        "Burns and electrical injuries from defective appliances or electronics",
+        "Head, brain, and spinal injuries from dangerous vehicles or equipment",
+        "Organ damage or internal injuries from defective medical devices",
+        "Serious side effects or complications from unsafe drugs",
+        "Fractures, lacerations, and crush injuries from tools or machinery",
+        "Choking or suffocation injuries from hazardous children's products",
+      ],
+    },
+    compensation: {
+      title: "What Product Liability Claims Typically Cover",
+      intro: "Compensation may include:",
+      items: [
+        "Medical treatment, rehabilitation, and future care needs",
+        "Lost wages and loss of future earning capacity",
+        "Pain and suffering and emotional distress",
+        "Long-term disability and reduced quality of life",
+        "Repair or replacement of damaged property",
+      ],
+    },
+    types: {
+      title: "Common Types and Causes of Defective Products",
+      items: [
+        "Design defects: Flaws in the product's original design that make it inherently dangerous",
+        "Manufacturing defects: Errors during production that create unsafe products",
+        "Failure to warn or inadequate instructions: Missing safety warnings or unclear usage guidelines",
+        "Vehicles with defective airbags, brakes, or rollover risks",
+        "Household appliances that overheat, spark, or cause fires",
+        "Unsafe medical devices, implants, and equipment",
+        "Dangerous toys, cribs, or children's products",
+        "Contaminated or improperly labeled prescription drugs",
+        "Faulty ladders, power tools, or industrial equipment",
+      ],
+    },
+    whyLawyerHelps: {
+      title: "Why Legal Help Matters in Product Liability Cases",
+      intro: "Manufacturers and insurers often dispute whether a product is truly defective or blame user error. A lawyer can:",
+      items: [
+        "Identify whether the defect is in design, manufacturing, or warnings",
+        "Preserve and analyze the product with engineers and safety experts",
+        "Gather medical records, purchase records, and recall information",
+        "Negotiate with corporations and insurers or take your case to court",
+        "Protect your rights and ensure deadlines are met",
+      ],
+    },
+  },
+
+  "boating-cruise-ship": {
+    slug: "boating-cruise-ship",
+    title: "Boating & Cruise Ship Injuries",
+    metaTitle: "Boating & Cruise Ship Lawyers | InjuryRight - Maritime Injury Claims",
+    metaDescription: "Injured on a boat or cruise ship? Learn about maritime law, your legal rights, and how to pursue compensation for injuries at sea.",
+    heroDescription: "Boating and cruise ship injuries occur on recreational boats, ferries, and large cruise liners when unsafe conditions or negligence at sea cause harm. These cases are governed by special maritime and admiralty laws, which can make claims more complex.",
+    keyTakeaways: [
+      "Shipowners, cruise lines, and operators must keep vessels reasonably safe for passengers and crew.",
+      "Boating and cruise ship injuries can be severe due to confined spaces, remote locations, and delayed emergency care.",
+      "Claims are often controlled by maritime law, ticket contracts, and strict filing deadlines.",
+      "Compensation may cover medical treatment, lost income, pain and suffering, and in some cases wrongful death.",
+      "Prompt reporting and documentation of the incident are critical to protecting your claim.",
+    ],
+    whatIs: {
+      title: "What Is a Boating & Cruise Ship Claim?",
+      content: "A boating and cruise ship claim seeks compensation for injuries that occur on navigable waters due to unsafe conditions or negligence. These cases can involve recreational boats, private charters, ferries, and large cruise ships. Unlike typical land-based injuries, many of these claims are governed by maritime and admiralty laws that set special rules for liability and time limits to sue.",
+    },
+    financialProtection: {
+      title: "How Boating & Cruise Ship Claims Provide Financial Protection",
+      intro: "Compensation from a maritime injury claim can help cover:",
+      items: [
+        "Emergency medical care onboard and onshore",
+        "Hospitalization, surgery, rehabilitation, and long-term treatment",
+        "Lost wages and loss of earning capacity if you miss work",
+        "Pain, suffering, and loss of enjoyment of travel or activities",
+        "Wrongful death benefits for families after fatal accidents",
+      ],
+    },
+    whoNeedsHelp: {
+      title: "Who Needs Legal Help After a Boating or Cruise Ship Incident",
+      intro: "Legal assistance is especially important if:",
+      items: [
+        "You were seriously injured on a cruise, ferry, or recreational boat",
+        "The cruise line or boat owner minimizes your injuries or blames you",
+        "You are asked to sign paperwork, waivers, or releases after the incident",
+        "You are unsure which laws apply or how long you have to file a claim",
+      ],
+    },
+    commonInjuries: {
+      title: "Common Boating & Cruise Ship Injuries",
+      items: [
+        "Head and brain injuries from falls, collisions, or falling objects",
+        "Neck and spinal cord injuries from sudden ship movements or falls",
+        "Fractures, sprains, and lacerations from slippery decks and stairways",
+        "Burns and inhalation injuries from fires or explosions at sea",
+        "Illness or food poisoning from contaminated food or poor sanitation",
+        "Emotional trauma from onboard assaults, overboard events, or disasters",
+      ],
+    },
+    compensation: {
+      title: "What Boating & Cruise Ship Claims Typically Cover",
+      intro: "Compensation may include:",
+      items: [
+        "Medical treatment, rehabilitation, and future care costs",
+        "Lost wages, reduced earning capacity, and travel-related expenses",
+        "Pain and suffering and emotional distress",
+        "Loss of enjoyment of life, including inability to travel or participate in activities",
+        "Wrongful death damages for surviving family members",
+      ],
+    },
+    types: {
+      title: "Common Causes of Boating & Cruise Ship Accidents",
+      items: [
+        "Operator negligence, distraction, or lack of training",
+        "Defective boat or ship equipment, such as engines or safety gear",
+        "Poor maintenance of decks, railings, cabins, or safety systems",
+        "Inadequate safety procedures, drills, and life-saving equipment",
+        "Hazardous conditions like wet decks, poor lighting, or unguarded edges",
+        "Alcohol or drug use by boat operators or crew members",
+      ],
+    },
+    timeline: {
+      title: "Maritime Law and Filing Deadlines",
+      content: "According to the U.S. Coast Guard, thousands of recreational boating accidents and hundreds of fatalities occur each year, often linked to operator error or unsafe vessel operation. Cruise lines and boat operators often rely on complex contracts and maritime laws to limit their responsibility, so prompt action is essential.",
+    },
+    whyLawyerHelps: {
+      title: "Why Legal Help Matters in Maritime Cases",
+      intro: "Cruise lines and boat operators often rely on complex contracts and maritime laws to limit their responsibility. A lawyer can:",
+      items: [
+        "Determine which laws apply, including maritime and admiralty rules",
+        "Identify all responsible parties, from cruise lines to vessel owners and manufacturers",
+        "Collect reports, maintenance logs, surveillance footage, and witness statements",
+        "Navigate strict ticket and filing deadlines that can shorten the time to sue",
+        "Negotiate with powerful companies and insurers or go to court when needed",
+      ],
+    },
+  },
 };
 
 export function getInjuryTypeContent(slug: string): InjuryTypeContent | undefined {
