@@ -139,7 +139,7 @@ const LocationDropdown = () => (
         {/* States Column */}
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-wider text-tertiary mb-3">Browse by State</h3>
-          <ul className="grid grid-cols-2 gap-x-4 gap-y-0.5 max-h-[320px] overflow-y-auto">
+          <ul className="grid grid-cols-2 gap-x-4 gap-y-0.5">
             {statesList.map((state) => (
               <li key={state}>
                 <Link
@@ -177,7 +177,7 @@ const headerNavItems: HeaderNavItem[] = [
   { label: "Practice Areas", menu: <PracticeAreaDropdown /> },
   { label: "Locations", menu: <LocationDropdown /> },
   { label: "Injury Types", href: "/injury-types" },
-  { label: "Legal Topics", href: "/legal-topics" },
+  { label: "Legal Topics & Q&A", href: "/legal-topics" },
 ];
 
 const MobileNavItem = (props: { className?: string; label: string; href?: string; children?: ReactNode }) => {
@@ -279,9 +279,7 @@ export const InjuryRightHeader = () => {
           <div className="flex flex-1 items-center gap-8">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-[#055148] to-[#047B6D]">
-                <span className="text-white font-bold text-lg">IR</span>
-              </div>
+              <img src="/logo.svg" alt="InjuryRight" className="w-10 h-10" />
               <span className="text-xl font-bold text-primary">
                 Injury<span className="text-brand-primary">Right</span>
               </span>
@@ -386,7 +384,7 @@ export const InjuryRightHeader = () => {
                       <MobileLocations />
                     </MobileNavItem>
                     <MobileNavItem label="Injury Types" href="/injury-types" />
-                    <MobileNavItem label="Legal Topics" href="/legal-topics" />
+                    <MobileNavItem label="Legal Topics & Q&A" href="/legal-topics" />
                   </ul>
                   <MobileFooter />
                 </nav>

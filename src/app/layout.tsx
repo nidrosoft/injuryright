@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, DM_Sans } from "next/font/google";
+import Script from "next/script";
 import { RouteProvider } from "@/providers/router-provider";
 import { Theme } from "@/providers/theme";
 import "@/styles/globals.css";
@@ -71,6 +72,20 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
+            <head>
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-ZH0S14G3G5"
+                    strategy="afterInteractive"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-ZH0S14G3G5');
+                    `}
+                </Script>
+            </head>
             <body className={cx(inter.variable, dmSans.variable, "bg-primary antialiased")}>
                 <RouteProvider>
                     <Theme>{children}</Theme>

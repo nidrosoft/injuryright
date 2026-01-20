@@ -140,7 +140,7 @@ function HeroSection() {
 
 function BlogCard({ post }: { post: BlogPost }) {
   return (
-    <Link href="/" className="group block">
+    <Link href={`/blog/${post.id}`} className="group block">
       <article className="bg-primary rounded-2xl border border-secondary overflow-hidden hover:shadow-lg hover:border-brand-300 transition-all duration-300">
         <div className="aspect-[16/9] bg-gradient-to-br from-brand-100 to-brand-200 flex items-center justify-center">
           <BookOpen01 className="w-12 h-12 text-brand-400" />
