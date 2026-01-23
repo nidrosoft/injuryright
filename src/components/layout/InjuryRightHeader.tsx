@@ -22,6 +22,10 @@ import {
   Heart,
   Scale01,
   MarkerPin01,
+  CurrencyDollar,
+  BookOpen01,
+  Star01,
+  Mail01,
 } from "@untitledui/icons";
 
 const practiceAreaItems = [
@@ -117,6 +121,41 @@ const statesList = [
 
 const desktopStatesLimit = 24;
 
+const resourceItems = [
+  { title: "Settlement Funding Solutions", subtitle: "Financial help while you wait", href: "/settlement-funding", Icon: CurrencyDollar },
+  { title: "Life After Impact Blog", subtitle: "Stories and recovery resources", href: "/blog", Icon: BookOpen01 },
+  { title: "Verified Reviews", subtitle: "Real client testimonials", href: "/verified-reviews", Icon: Star01 },
+  { title: "Contact Us", subtitle: "Get in touch with our team", href: "/contact", Icon: Mail01 },
+];
+
+const ResourcesDropdown = () => (
+  <div className="w-full max-w-sm p-2">
+    <nav className="overflow-hidden rounded-2xl bg-primary shadow-lg ring-1 ring-secondary_alt">
+      <div className="p-3 sm:p-4">
+        <h3 className="text-xs font-semibold uppercase tracking-wider text-tertiary mb-3">Resources</h3>
+        <ul className="space-y-1">
+          {resourceItems.map(({ title, subtitle, href, Icon }) => (
+            <li key={title}>
+              <Link
+                href={href}
+                className="flex items-start gap-3 rounded-xl p-3 transition duration-100 ease-linear hover:bg-primary_hover"
+              >
+                <div className="flex-shrink-0 mt-0.5">
+                  <Icon className="size-5 stroke-[2px] text-fg-brand-primary" />
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-sm font-semibold text-primary">{title}</span>
+                  <span className="text-xs text-tertiary line-clamp-1">{subtitle}</span>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  </div>
+);
+
 const LocationDropdown = () => (
   <div className="w-full min-w-[700px] max-w-3xl p-2">
     <nav className="overflow-hidden rounded-2xl bg-primary shadow-lg ring-1 ring-secondary_alt">
@@ -187,6 +226,7 @@ const headerNavItems: HeaderNavItem[] = [
   { label: "Locations", menu: <LocationDropdown /> },
   { label: "Injury Types", href: "/injury-types" },
   { label: "Legal Topics & Q&A", href: "/legal-topics" },
+  { label: "Resources", menu: <ResourcesDropdown /> },
 ];
 
 const MobileNavItem = (props: { className?: string; label: string; href?: string; children?: ReactNode }) => {
@@ -261,6 +301,20 @@ const MobileLocations = () => (
     >
       View all locations →
     </Link>
+  </div>
+);
+
+const MobileResources = () => (
+  <div className="space-y-1">
+    {resourceItems.map(({ title, href }) => (
+      <Link
+        key={title}
+        href={href}
+        className="block px-3 py-2.5 text-sm font-medium text-gray-700 hover:text-brand-600 hover:bg-white rounded-lg transition-colors"
+      >
+        {title}
+      </Link>
+    ))}
   </div>
 );
 
@@ -394,6 +448,9 @@ export const InjuryRightHeader = () => {
                     </MobileNavItem>
                     <MobileNavItem label="Injury Types" href="/injury-types" />
                     <MobileNavItem label="Legal Topics & Q&A" href="/legal-topics" />
+                    <MobileNavItem label="Resources">
+                      <MobileResources />
+                    </MobileNavItem>
                   </ul>
                   <MobileFooter />
                 </nav>

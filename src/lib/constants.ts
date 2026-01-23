@@ -58,8 +58,8 @@ export const NAV_LINKS = {
   footer: {
     company: [
       { label: "About Us", href: "/about" },
-      { label: "Verified Reviews", href: "/verified-reviews" },
-      { label: "Contact Us", href: "/contact" },
+      { label: "Injury Types", href: "/injury-types" },
+      { label: "Legal Topics & Q&A", href: "/legal-topics" },
       { label: "For Law Firms", href: "/for-law-firms" },
     ],
     resources: [

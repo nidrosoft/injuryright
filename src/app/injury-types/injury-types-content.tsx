@@ -25,6 +25,8 @@ import {
   AlertTriangle,
   Building07,
   Scale01,
+  Box,
+  Anchor,
 } from "@untitledui/icons";
 
 const injuryTypeIcons: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -41,6 +43,8 @@ const injuryTypeIcons: Record<string, React.ComponentType<{ className?: string }
   "workplace-injury": Briefcase02,
   "medical-malpractice": Activity,
   "personal-injury": Target04,
+  "product-liability": Box,
+  "boating-cruise-ship": Anchor,
 };
 
 const injuryTypeColors: Record<string, { bg: string; border: string; icon: string; hover: string }> = {
@@ -121,6 +125,18 @@ const injuryTypeColors: Record<string, { bg: string; border: string; icon: strin
     border: "border-teal-200",
     icon: "text-teal-600",
     hover: "hover:border-teal-400 hover:shadow-teal-100",
+  },
+  "product-liability": {
+    bg: "bg-violet-50",
+    border: "border-violet-200",
+    icon: "text-violet-600",
+    hover: "hover:border-violet-400 hover:shadow-violet-100",
+  },
+  "boating-cruise-ship": {
+    bg: "bg-sky-50",
+    border: "border-sky-200",
+    icon: "text-sky-600",
+    hover: "hover:border-sky-400 hover:shadow-sky-100",
   },
 };
 
